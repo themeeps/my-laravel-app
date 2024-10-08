@@ -1,0 +1,38 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: url('/images/hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-primary {
+    transition: 0.3s;
+}
+
+.btn-outline-primary:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 32px;
+    }
+    header p {
+        font-size: 16px;
+    }
+}
